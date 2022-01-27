@@ -32,10 +32,15 @@ Feel free to drop us a message whenever necessary.
 
 # Table of Contents
 
+- [Behodler contest details ✨](#behodler-contest-details-)
+- [Team Contacts](#team-contacts)
+- [Table of Contents](#table-of-contents)
 - [Scope](#scope)
-	- [Contracts in scope](#contracts-in-scope)
+	- [Video](#video)
+	- [Contracts in scope:](#contracts-in-scope)
 	- [Areas of Concern](#areas-of-concern)
 		- [DAO](#dao)
+	- [> :heavy_exclamation_mark: **However, it's important that Pyrotokens and Scarcity can be listed as perpetual souls without issue.**](#-heavy_exclamation_mark-however-its-important-that-pyrotokens-and-scarcity-can-be-listed-as-perpetual-souls-without-issue)
 - [Context: The Behodler Ecosystem](#context-the-behodler-ecosystem)
 	- [The Behodler ecosystem at a glance](#the-behodler-ecosystem-at-a-glance)
 	- [The economic challenges of single sided token listing](#the-economic-challenges-of-single-sided-token-listing)
@@ -52,28 +57,28 @@ Feel free to drop us a message whenever necessary.
 		- [Version 6: Lockup incentives](#version-6-lockup-incentives)
 	- [Governance](#governance)
 - [How to run local unit test](#how-to-run-local-unit-test)
-- [Limbo Smart Contracts Overview](#limbo-smart-contracts-overview)
+- [Limbo Smart Contracts Overview:](#limbo-smart-contracts-overview)
 	- [Technical Reference](#technical-reference)
 		- [Contract Inheritance](#contract-inheritance)
 		- [Contract Dependencies](#contract-dependencies)
 		- [External Libraries](#external-libraries)
 		- [Testing](#testing)
 			- [How to run local unit tests](#how-to-run-local-unit-tests)
-	- [Limbo Smart Contracts](#limbo-smart-contracts)
+- [Limbo Smart Contracts:](#limbo-smart-contracts)
 		- [Flan](#flan)
-		- [FlanBackStop](#flanbackstop)
+		- [FlanBackstop](#flanbackstop)
 		- [Limbo](#limbo)
 			- [How is Limbo different from other liquidity mining dapps?](#how-is-limbo-different-from-other-liquidity-mining-dapps)
 			- [Primary incentive for staking:](#primary-incentive-for-staking)
-			- [Economics](#economics)
-			- [Nomenclature](#nomenclature)
-			- [Basic staking incentives](#basic-staking-incentives)
-			- [Late stakers considerations](#late-stakers-considerations)
-			- [Crossing incentives](#crossing-incentives)
-			- [States of migration](#states-of-migration)
-			- [Flash governance](#flash-governance)
-			- [Rectangle of Fairness](#rectangle-of-fairness)
-		- [TokenProxyRegister](#tokenproxyregister)
+			- [Economics:](#economics)
+			- [Nomenclature:](#nomenclature)
+			- [Basic staking incentives:](#basic-staking-incentives)
+			- [Late stakers considerations:](#late-stakers-considerations)
+			- [Crossing incentives:](#crossing-incentives)
+			- [States of migration:](#states-of-migration)
+			- [Flash governance:](#flash-governance)
+			- [Rectangle of Fairness:](#rectangle-of-fairness)
+		- [TokenProxyRegistry](#tokenproxyregistry)
 		- [UniswapHelper](#uniswaphelper)
 	- [LimboDAO Smart Contracts](#limbodao-smart-contracts)
 		- [FlashGovernanceArbiter](#flashgovernancearbiter)
@@ -109,6 +114,15 @@ The focus of this contest is to look for any logic errors, exploits or attack ve
 Limbo is a critical component of the Behodler Liquidity Protocol, as it serves as the token pre-seeding layer before a token is added for trading on Behodler AMM. 
 
 Smart contracts are listed in alphabetical order per module and not in order of importance.
+
+## Video
+We have a comprehensive video recorded by our lead dev which covers:
+	1. High level overview, motivating and explaining the core concepts and cryptoeconomics
+	2. A dive into the code base
+
+https://s3.amazonaws.com/marketing.behodler.io/Limbo.mp4
+
+*Technical note: the video will play in your browser but may take a minute to load.*
 
 ## Contracts in scope:
 
