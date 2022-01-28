@@ -116,11 +116,11 @@ Limbo is a critical component of the Behodler Liquidity Protocol, as it serves a
 Smart contracts are listed in alphabetical order per module and not in order of importance.
 
 ## Video
-We have a comprehensive video recorded by our lead dev which covers:
+We have a comprehensive youtube playlist recorded by our lead dev which covers:
 	1. High level overview, motivating and explaining the core concepts and cryptoeconomics
 	2. A dive into the code base
 
-https://s3.amazonaws.com/marketing.behodler.io/Limbo.mp4
+https://www.youtube.com/watch?v=EEYO0zI3K2c&list=PLmf60JxYYfEvC-_laKFUqKbOrMcz_RQKN&index=1
 
 *Technical note: the video will play in your browser but may take a minute to load.*
 
